@@ -7,6 +7,14 @@ public:
         cout << "Hallo saya function dari base class";
     }
 };
+
+class baseClass2 {
+public:
+    virtual void perkenalan() final {
+        cout << "Hallo saya function dari base class";
+    }
+};
+
 class derivedClass : public baseClass {
 public:
     void perkenalan1() {
